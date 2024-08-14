@@ -43,8 +43,8 @@ function loadNextItems(url) {
         })
         .catch(error => console.error('error loading page:', error))
         .finally(() => {
-						if (nextPageLink.length){
-                loadingNextPage = false;
+	    if (nextPageLink.length){
+	        loadingNextPage = false;
             }
         });
 }
